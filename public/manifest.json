@@ -1,0 +1,12 @@
+{
+  "name": "Deej Sandezz — Golden Turntable",
+  "short_name": "Deej Sandezz",
+  "description": "Free mixes, event tickets, merch & bookings. Nairobi's golden turntable.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060606",
+  "theme_color": "#FFC400",
+  "icons": [
+    { "src": "/images/mix-afrobeats.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any" }
+  ]
+}
