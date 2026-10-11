@@ -107,6 +107,14 @@ Uses Drizzle ORM with PostgreSQL. Schema includes:
 
 Deployed on Vercel. Push to `main` to trigger production deployment.
 
+## Documentation
+
+- [API Reference](docs/API.md) — All endpoints, parameters, and response schemas
+- [Database Schema](docs/DATABASE.md) — Table definitions and relationships
+- [Architecture](docs/ARCHITECTURE.md) — System design and rendering strategy
+- [Components](docs/COMPONENTS.md) — React component reference
+- [Deployment](docs/DEPLOYMENT.md) — Vercel deployment and database setup
+
 ## License
 
 Private. All rights reserved.
