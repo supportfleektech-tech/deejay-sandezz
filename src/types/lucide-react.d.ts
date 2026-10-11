@@ -99,8 +99,6 @@ declare module "lucide-react" {
   export const Train: ComponentType<IconProps>;
   export const Bus: ComponentType<IconProps>;
   export const Bike: ComponentType<IconProps>;
-  export const Walk: ComponentType<IconProps>;
-  export const Umbrella: ComponentType<IconProps>;
   export const Sun: ComponentType<IconProps>;
   export const Moon: ComponentType<IconProps>;
   export const Cloud: ComponentType<IconProps>;
@@ -128,14 +126,6 @@ declare module "lucide-react" {
   export const Squirrel: ComponentType<IconProps>;
   export const Rat: ComponentType<IconProps>;
   export const Mouse: ComponentType<IconProps>;
-  export const Cat2: ComponentType<IconProps>;
-  export const Dog2: ComponentType<IconProps>;
-  export const Rabbit2: ComponentType<IconProps>;
-  export const Turtle2: ComponentType<IconProps>;
-  export const Snail2: ComponentType<IconProps>;
-  export const Squirrel2: ComponentType<IconProps>;
-  export const Rat2: ComponentType<IconProps>;
-  export const Mouse2: ComponentType<IconProps>;
   export const LayoutDashboard: ComponentType<IconProps>;
   export const CheckCircle2: ComponentType<IconProps>;
   export const ListMusic: ComponentType<IconProps>;
