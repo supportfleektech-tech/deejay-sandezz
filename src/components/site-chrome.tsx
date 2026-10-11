@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import {
   Menu, X, Play, Ticket, ShoppingBag, CalendarCheck,
-  Phone, Mail, MapPin, ChevronRight, Disc3, Flame,
+  Phone, Mail, MapPin, ChevronRight, Flame,
 } from "lucide-react";
 import { DJ, NAV_LINKS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -15,14 +15,14 @@ import { YoutubeIcon, InstagramIcon, FacebookIcon, XIcon, TiktokIcon } from "./i
 export function Logo({ size = 44 }: { size?: number }) {
   return (
     <Link href="/" className="group flex items-center gap-3">
-      <span
-        className="relative grid shrink-0 place-items-center rounded-full border-[3px] border-gold-500 bg-black shadow-[0_0_25px_rgba(255,196,0,0.35)] transition group-hover:shadow-[0_0_35px_rgba(255,196,0,0.6)]"
-        style={{ width: size, height: size }}
-      >
-        <span className="absolute inset-[5px] rounded-full border border-gold-500/50" />
-        <Disc3 size={size * 0.45} className="text-gold-400 transition group-hover:rotate-90 duration-500" />
-        <span className="absolute -bottom-1 rounded-full bg-gold-500 px-1.5 text-[8px] font-black leading-4 text-black">DS</span>
-      </span>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/images/logo.png"
+        alt="Deej Sandezz"
+        width={size}
+        height={size}
+        className="shrink-0 rounded-full border-[3px] border-gold-500 bg-black object-cover shadow-[0_0_25px_rgba(255,196,0,0.35)] transition group-hover:shadow-[0_0_35px_rgba(255,196,0,0.6)]"
+      />
       <span className="leading-none">
         <span className="font-display block text-xl tracking-wide text-white sm:text-2xl">
           DEEJ <span className="gold-gradient-text">SANDEZZ</span>

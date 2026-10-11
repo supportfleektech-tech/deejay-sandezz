@@ -23,6 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
 
         <meta name="theme-color" content="#FFC400" />
+        <link rel="icon" href="/images/logo.png" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
